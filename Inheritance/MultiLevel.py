@@ -17,5 +17,6 @@ class Fortuner (ToyotaCar):
         self.type=type
 
 c1 = Fortuner("Diesel")
+print(c1.name)
 print(c1.stop())
 print(c1.start())
